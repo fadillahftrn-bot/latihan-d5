@@ -36,7 +36,7 @@ urutNilai.forEach(mhs => console.log(`${mhs.nama} - ${mhs.nilai}`));
 // 4. Cari mahasiswa berdasarkan nama (dengan mode loop)
 let lanjutCari = true;
 
-while (lanjutCari) {
+while(lanjutCari) {
     console.log("\n--- Mode Pencarian Mahasiswa ---");
     let cariNama = prompt("Masukkan Nama Mahasiswa yang dicari: ");
     let hasilCari = mahasiswa.find(mhs => mhs.nama.toLowerCase() === cariNama.toLowerCase());
